@@ -21,11 +21,13 @@
   },
   "homepage": "https://github.com/handsomeBingo/be-react-dashboard#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.4",
     "express-static": "^1.2.6",
     "global": "^4.3.2",
+    "node-mysql-promise": "^0.0.7",
     "supervisor": "^0.12.0"
   }
 }
