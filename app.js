@@ -12,7 +12,9 @@ app.use(cookieParser());
 app.use(bodyParser.json({extended: true}));
 app.use(cookieSession({
   secret: 'games',
-  signed: true
+  signed: true,
+  keys: [1, 2, 3, 4, 5, 7, 8],
+  maxAge: 24 * 60 * 60 * 1000
 }));
 
 app.use(routes);
